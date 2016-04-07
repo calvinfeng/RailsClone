@@ -1,0 +1,11 @@
+<form action="/cats" method="post">
+  <label>
+    Name
+    <input type="text" name="cat[name]" value="<%= @cat.name %>">
+  </label>
+  <label>
+    Owner ID
+    <input type="text" name="cat[owner_id]" value="<%= @cat.owner_id %>">
+  </label>
+  <input type="submit">
+</form>
