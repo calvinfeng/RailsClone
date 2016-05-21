@@ -69,3 +69,7 @@ router.draw do
 end
 ```
 An use case is illustrated in the example above: Users define get/post, the regular expression needed to match url pattern, and also the appropriate controller for the requests. ***Just like Rails!***
+
+## Missing Feature
+* Flash cookie
+* CSRF Protection
